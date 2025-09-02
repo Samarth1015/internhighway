@@ -1,4 +1,4 @@
-import { PrismaClient } from '../generated/prisma';
+import { PrismaClient } from '@prisma/client';
 import { Note, CreateNoteData, UpdateNoteData, NoteRepository } from '../models/Note';
 
 export class PrismaNoteRepository implements NoteRepository {
